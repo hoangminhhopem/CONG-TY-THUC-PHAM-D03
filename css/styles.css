@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    /* Changed to relative */
+    width: 100%;
+    bottom: 0;
+}
+
+/* CSS cho hình ảnh */
+img {
+    width: 100%;
+    /* Chiếm toàn bộ chiều rộng của phần tử cha */
+    height: auto;
+    /* Giữ tỷ lệ khung hình gốc */
+    display: block;
+    /* Đảm bảo hình ảnh được hiển thị như một khối */
+    margin: 0;
+    /* Không có khoảng cách bên ngoài */
+    padding: 0;
+    /* Không có khoảng cách bên trong */
+}
